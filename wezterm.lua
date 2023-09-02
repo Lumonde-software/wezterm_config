@@ -79,13 +79,13 @@ local local_config = load_local_config("local")
 local config = {
 	-- default_domain = "WSL:Ubuntu",
 	-- font = wezterm.font("Cica"),
-	-- font_size = 10.0,
+	font_size = 10.0,
 	-- font = wezterm.font("UDEV Gothic 35NFLG"),
 	font = wezterm.font_with_fallback({
 		{family="PlemolJP Console NF", weight="Medium"},
 		{family="UDEV Gothic NFLG", weight="Regular"},
 	  }),
-	font_size = 8.5,
+	-- font_size = 8.5,
 	-- cell_width = 1.1,
 	-- line_height = 1.1,
 	-- font_rules = {
